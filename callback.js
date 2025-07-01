@@ -1,5 +1,4 @@
 
-
 const first = (cb) => {
     console.log("Hello");
     cb();
