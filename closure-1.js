@@ -11,7 +11,9 @@ function x() {
 }
 var z = x();
 
-// Here x will get vanished after 12th line. But, function y will remember its lexical scope as well (variables present in x).
+// Here x will get vanished after execution of 12th line. But, function y will remember its lexical scope even after that
+//  (variables present in x).
+
 //....
 z();
 

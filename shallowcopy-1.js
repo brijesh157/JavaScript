@@ -10,5 +10,5 @@ let shallow = original;
 
 shallow.name = "ok";
 
-console.log(original.name);
-console.log(shallow.name);
+console.log(original);
+console.log(shallow);
